@@ -1,12 +1,14 @@
 # Grafos1_leetcode1
 
 ## Questões Resolvidas
-- **Questão 98**  
-  [Link da questão](https://leetcode.com/problems/validate-binary-search-tree/)
+
+| Nº  | Questão | Link da Questão | Link da Resolução |
+|-----|----------|-----------------|-------------------|
+| 98  | Validate Binary Search Tree | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) | [Resolução](COLOQUE_AQUI_O_LINK_DA_RESOLUCAO) |
 
 ## Alunos
-- João Filipe de Oliveira Souza — Matrícula: 231035141 — [GitHub](https://github.com/joao151104)  
-- Nathan Batista — Matrícula: XXXXXXX
 
-## Resolução das Questões
-- [Link da resolução](COLOQUE_AQUI_O_LINK_DA_RESOLUCAO)
+| Nome                          | Matrícula   | GitHub                                |
+|-------------------------------|-------------|---------------------------------------|
+| João Filipe de Oliveira Souza | 231035141   | [joao151104](https://github.com/joao151104) |
+| Nathan Batista                | XXXXXXX     | -                                     |
