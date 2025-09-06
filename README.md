@@ -2,10 +2,10 @@
 
 ## Questões Resolvidas
 
-| Nº  | Questão | Link da Questão | Autor |
+| Nº  | Questão |Dificuldade |Link da Questão | Autor |
 |-----|----------|-----------------|-------|
-| 98  | Validate Binary Search Tree | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/)| João |
-| 332  | Reconstruct Itinerary | [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/description)| Nathan |
+| 98  | Validate Binary Search Tree |Medio|[LeetCode](https://leetcode.com/problems/validate-binary-search-tree/)| João |
+| 332  | Reconstruct Itinerary |Dificil|  [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/description)| Nathan |
 
 ## Alunos
 
