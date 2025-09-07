@@ -77,3 +77,35 @@ void freeGraph() {
     }
 }
 
+char** findItinerary(char*** tickets, int ticketsSize, int* ticketsColSize, int* returnSize) {
+    for(int i = 0; i < HASH_TABLE_SIZE; i++) {
+        graph[i] = NULL;
+    }
+    
+    for (int i = 0; i < ticketsSize; i++) {
+        Airport* origin = findOrCreateAirport(tickets[i][0]);
+        addDestination(origin, tickets[i][1]);
+    }
+
+    for (int i = 0; i < HASH_TABLE_SIZE; i++) {
+        if (graph[i] != NULL && graph[i]->dest_count > 0) {
+            qsort(graph[i]->destinations, graph[i]->dest_count, sizeof(char*), compareStrings);
+        }
+    }
+
+    char** temp_itinerary = (char**)malloc((ticketsSize + 1) * sizeof(char*));
+    int itinerary_count = 0;
+    dfs("JFK", temp_itinerary, &itinerary_count);
+    
+    *returnSize = itinerary_count;
+    char** final_itinerary = (char**)malloc(itinerary_count * sizeof(char*));
+
+    for (int i = 0; i < itinerary_count; i++) {
+        final_itinerary[i] = temp_itinerary[itinerary_count - 1 - i];
+    }
+    free(temp_itinerary); 
+    
+    freeGraph();
+    
+    return final_itinerary;
+}
