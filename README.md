@@ -15,3 +15,6 @@
 | ----------------------------- | --------- | ------------------------------------------- |
 | João Filipe de Oliveira Souza | 231035141 | [joao151104](https://github.com/joao151104) |
 | Nathan Batista                | 222006285 | [Nathan-bs](https://github.com/Nathan-bs)   |
+
+
+resolução : https://youtu.be/7ijvf5JXv-E
